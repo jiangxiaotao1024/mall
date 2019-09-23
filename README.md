@@ -1,4 +1,7 @@
 电商后台<br>
+平台管理：创建3级分类，创建三级分类下的平台属性和属性值，创建基础销售属性。<br>
+在第三级分类下创建SPU：商品信息（商品名称，商品描述），销售属性（选择基础销售属性，销售属性值），商品图片（图片名称，图片链接）。<br>
+在SPU下创建SKU:SKU信息（名称，描述，价格，重量，默认图片链接），SKU属性（平台销售属性，商品销售属性），SKU图片（选择商品图片）；<br>
 parent:控制依赖版本<br>
 common：service,web公共依赖<br>
 web:web依赖<br>
@@ -6,3 +9,4 @@ service：service依赖<br>
 api:实体类及service接口<br>
 managerweb:控制器<br>
 managerservice:dao及service实现<br>
+fastdfs-client-java:fastdfs依赖
