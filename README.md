@@ -1,4 +1,4 @@
-电商后台
+电商后台<br>
 parent:控制依赖版本
 common：service,web公共依赖
 web:web依赖
