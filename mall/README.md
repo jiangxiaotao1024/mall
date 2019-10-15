@@ -1,4 +1,4 @@
-<span style="color:red">后台模块(manager)</span>
+<font color=red>后台模块(manager)</font>
 <b style="color:red"></b>
 后台模块(manager)<br>
 创建三级分类，平台属性
