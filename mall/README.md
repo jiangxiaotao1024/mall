@@ -4,8 +4,7 @@
 ---
 创建三级分类，平台属性
 发布spu,sku，图片存储在fastdfs<br>
-详情模块(item)
----
+##详情模块(item)
 redis中获取sku信息，没有则从数据库中获取并存入redis,缓存同一spu信息下的sku信息，实现sku切换
 搜索模块(search)
 ---
