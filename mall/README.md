@@ -1,7 +1,5 @@
 后台模块(manager)
-===
-<b style="color:red"></b>
-后台模块(manager)<br>
+---
 创建三级分类，平台属性
 发布spu,sku，图片存储在fastdfs
 详情模块(item)
