@@ -1,0 +1,31 @@
+server:
+  port: 8011
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mapper/*.xml
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+    username: root
+    password: 12345678
+  dubbo:
+    application: payment
+    protocol:
+      name: dubbo
+    registry:
+      address: 192.168.130.130:2181
+      protocol: zookeeper
+    base-package: mall
+    consumer:
+      timeout: 600000
+      check: false
+  redis:
+    host: 192.168.130.130
+    port: 6379
+    database: 0
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+  activemq:
+    broker-url: tcp://localhost:61616

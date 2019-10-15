@@ -1,0 +1,23 @@
+server:
+  port: 8041
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+#  mapper-locations: classpath:mapper/*Mapper.xml
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+    username: root
+    password: 12345678
+  dubbo:
+    application: cartservice
+    protocol:
+      name: dubbo
+    registry:
+      address: 192.168.130.130:2181
+      protocol: zookeeper
+    base-package: mall
+  redis:
+    host: 192.168.130.130
+    port: 6379
+    database: 0

@@ -1,0 +1,18 @@
+server:
+  port: 8052
+spring:
+  dubbo:
+    application: searchmweb
+    protocol:
+      name: dubbo
+    registry:
+      address: 192.168.130.130:2181
+      protocol: zookeeper
+    base-package: mall
+    consumer:
+      timeout: 600000
+      check: false
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+
