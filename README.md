@@ -1,4 +1,4 @@
-# 本项目是一个电商项目。<br>开发工具：linux，tomcat,mysql,idea<br>开发技术：dubbo，ssm，zookeeper,elasticsearch，redis，activemq等
+# 本项目是一个电商项目。<br>开发工具：linux，tomcat,mysql,idea<br>开发技术：dubbo，springboot，mybatis，zookeeper,elasticsearch，redis，activemq等
 ## 后台模块(manager)
 创建三级分类，平台属性
 发布spu,sku，图片存储在fastdfs<br>
