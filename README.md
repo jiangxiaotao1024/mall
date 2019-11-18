@@ -1,7 +1,7 @@
 # 本项目是一个电商项目。<br>开发工具：linux，tomcat,mysql,idea<br>开发技术：dubbo，springboot，mybatis，zookeeper,elasticsearch，redis，activemq等
 ## 后台模块(manager)
 创建三级分类，平台属性
-发布spu,sku，图片存储在fastdfs<br>
+上传spu及spu下的sku，图片存储在fastdfs<br>
 ## 详情模块(item)
 redis中获取sku信息，没有则从数据库中获取并存入redis,缓存同一spu信息下的sku信息，实现sku切换
 ## 搜索模块(search)
